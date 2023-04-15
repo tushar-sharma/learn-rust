@@ -1,13 +1,17 @@
 fn main() {
-    // Macros in Rust are a powerful feature 
-    // that allows you to write code that generates other code at compile-time. 
-    // In the case of the println! macro, 
-    // it takes a string literal with placeholders for values to be printed 
-    // and generates code to print the formatted output to stdout at compile-time.
+    // variable assignment is done using 'let' keyword
+    // no type annotation is required as Rust has local type inference
+    let age = 10i8;
 
-    //example of a macro 
-    let distance = 2;
-    println!("The distance is {}", distance);
+    // we can skip annotating the literal if you give an explicit type 
+    let shoe_size : i8 = 12;
 
+    println!("I wear a size {} shoe", shoe_size);
 
+    // variable are mutable by default
+    // to reassign a value you must declare it with 'mut' keyword
+
+    let mut age = 24i8; 
+    age = 15i8; 
+    println!("My age is {}", age);
 }
