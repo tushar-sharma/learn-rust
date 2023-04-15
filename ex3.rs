@@ -15,5 +15,6 @@ fn main() {
 
     //println! macro is used for printing formatted output, 
     //while the println function is used for printing a single string without any formatting.
+    println("The distance is 2");
 
 }
