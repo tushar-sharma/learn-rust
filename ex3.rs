@@ -11,7 +11,7 @@ fn main() {
     // variable are mutable by default
     // to reassign a value you must declare it with 'mut' keyword
 
-    let mut age = 24i8; 
-    age = 15i8; 
-    println!("My age is {}", age);
+    let mut height = 24i8; 
+    height = 15i8; 
+    println!("My height is {}", height);
 }
