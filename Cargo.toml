@@ -1,0 +1,9 @@
+[package]
+name = "my_project_name"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "ex1"
+path = "ex1.rs"
+
