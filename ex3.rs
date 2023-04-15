@@ -7,7 +7,7 @@ fn main() {
 
     //example of a macro 
     let distance = 2;
-    println("The distance is {}", distance);
+    println!("The distance is {}", distance);
 
     //the println function is a regular function that takes a single string argument
     // and prints it to stdout without any formatting
