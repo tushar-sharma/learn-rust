@@ -9,10 +9,6 @@ fn main() {
     let distance = 2;
     println!("The distance is {}", distance);
 
-    //the println function is a regular function that takes a single string argument
-    // and prints it to stdout without any formatting
-    println("The distance is ", distance);
-
     //println! macro is used for printing formatted output, 
     //while the println function is used for printing a single string without any formatting.
     println("The distance is 2");
